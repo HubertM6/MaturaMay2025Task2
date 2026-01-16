@@ -13,11 +13,11 @@ tasks:
     checkerFilename: "checkers/checker1.cpp"
     checkTypes:
       EXAMPLE:
-        inputFilesDirectory: tests/task_1/example/
-        outputFilesDirectory: tests/task_1/example/
+        inputFilesDirectory: tests/task_1/example/in/
+        outputFilesDirectory: tests/task_1/example/out/
       OFFICIAL:
-        inputFilesDirectory: tests/task_1/official/
-        outputFilesDirectory: tests/task_1/official/
+        inputFilesDirectory: tests/task_1/official/in/
+        outputFilesDirectory: tests/task_1/official/out/
   task_2:
     testedFunctionName: task_2
     userInputFilename: symbole.txt
@@ -26,11 +26,11 @@ tasks:
     checkerFilename: "checkers/checker2.cpp"
     checkTypes:
       EXAMPLE:
-        inputFilesDirectory: tests/task_2/example/
-        outputFilesDirectory: tests/task_2/example/
+        inputFilesDirectory: tests/task_2/example/in/
+        outputFilesDirectory: tests/task_2/example/out/
       OFFICIAL:
-        inputFilesDirectory: tests/task_2/official/
-        outputFilesDirectory: tests/task_2/official/
+        inputFilesDirectory: tests/task_2/official/in/
+        outputFilesDirectory: tests/task_2/official/out/
   task_3:
     testedFunctionName: task_3
     userInputFilename: symbole.txt
@@ -39,11 +39,11 @@ tasks:
     checkerFilename: "checkers/checker3.cpp"
     checkTypes:
       EXAMPLE:
-        inputFilesDirectory: tests/task_3/example/
-        outputFilesDirectory: tests/task_3/example/
+        inputFilesDirectory: tests/task_3/example/in/
+        outputFilesDirectory: tests/task_3/example/out/
       OFFICIAL:
-        inputFilesDirectory: tests/task_3/official/
-        outputFilesDirectory: tests/task_3/official/
+        inputFilesDirectory: tests/task_3/official/in/
+        outputFilesDirectory: tests/task_3/official/out/
   task_4:
     testedFunctionName: task_4
     userInputFilename: symbole.txt
@@ -52,8 +52,8 @@ tasks:
     checkerFilename: "checkers/checker4.cpp"
     checkTypes:
       EXAMPLE:
-        inputFilesDirectory: tests/task_4/example/
-        outputFilesDirectory: tests/task_4/example/
+        inputFilesDirectory: tests/task_4/example/in/
+        outputFilesDirectory: tests/task_4/example/out/
       OFFICIAL:
-        inputFilesDirectory: tests/task_4/official/
-        outputFilesDirectory: tests/task_4/official/
+        inputFilesDirectory: tests/task_4/official/in/
+        outputFilesDirectory: tests/task_4/official/out/
