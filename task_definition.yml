@@ -1,0 +1,59 @@
+sourceFile: src/task.py
+
+limits:
+  time: 2000
+  memory: 250000
+
+tasks:
+  task_1:
+    testedFunctionName: task1
+    userInputFilename: symbole.txt
+    userOutputFilename: wyniki2.txt
+    maxPoints: 2
+    checkerFilename: "checkers/checker1.cpp"
+    checkTypes:
+      EXAMPLE:
+        inputFilesDirectory: tests/task_1/example/
+        outputFilesDirectory: tests/task_1/example/
+      OFFICIAL:
+        inputFilesDirectory: tests/task_1/official/
+        outputFilesDirectory: tests/task_1/official/
+  task_2:
+    testedFunctionName: task2
+    userInputFilename: symbole.txt
+    userOutputFilename: wyniki2.txt
+    maxPoints: 4
+    checkerFilename: "checkers/checker2.cpp"
+    checkTypes:
+      EXAMPLE:
+        inputFilesDirectory: tests/task_2/example/
+        outputFilesDirectory: tests/task_2/example/
+      OFFICIAL:
+        inputFilesDirectory: tests/task_2/official/
+        outputFilesDirectory: tests/task_2/official/
+  task_3:
+    testedFunctionName: task3
+    userInputFilename: symbole.txt
+    userOutputFilename: wyniki2.txt
+    maxPoints: 2
+    checkerFilename: "checkers/checker3.cpp"
+    checkTypes:
+      EXAMPLE:
+        inputFilesDirectory: tests/task_3/example/
+        outputFilesDirectory: tests/task_3/example/
+      OFFICIAL:
+        inputFilesDirectory: tests/task_3/official/
+        outputFilesDirectory: tests/task_3/official/
+  task_4:
+    testedFunctionName: task4
+    userInputFilename: symbole.txt
+    userOutputFilename: wyniki2.txt
+    maxPoints: 3
+    checkerFilename: "checkers/checker4.cpp"
+    checkTypes:
+      EXAMPLE:
+        inputFilesDirectory: tests/task_4/example/
+        outputFilesDirectory: tests/task_4/example/
+      OFFICIAL:
+        inputFilesDirectory: tests/task_4/official/
+        outputFilesDirectory: tests/task_4/official/
