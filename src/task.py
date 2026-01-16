@@ -1,14 +1,14 @@
-def task1():
+def task_1():
     pass
 
 
-def task2():
+def task_2():
     pass
 
 
-def task3():
+def task_3():
     pass
 
 
-def task4():
+def task_4():
     pass

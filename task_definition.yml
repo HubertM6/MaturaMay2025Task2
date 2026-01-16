@@ -6,7 +6,7 @@ limits:
 
 tasks:
   task_1:
-    testedFunctionName: task1
+    testedFunctionName: task_1
     userInputFilename: symbole.txt
     userOutputFilename: wyniki2.txt
     maxPoints: 2
@@ -19,7 +19,7 @@ tasks:
         inputFilesDirectory: tests/task_1/official/
         outputFilesDirectory: tests/task_1/official/
   task_2:
-    testedFunctionName: task2
+    testedFunctionName: task_2
     userInputFilename: symbole.txt
     userOutputFilename: wyniki2.txt
     maxPoints: 4
@@ -32,7 +32,7 @@ tasks:
         inputFilesDirectory: tests/task_2/official/
         outputFilesDirectory: tests/task_2/official/
   task_3:
-    testedFunctionName: task3
+    testedFunctionName: task_3
     userInputFilename: symbole.txt
     userOutputFilename: wyniki2.txt
     maxPoints: 2
@@ -45,7 +45,7 @@ tasks:
         inputFilesDirectory: tests/task_3/official/
         outputFilesDirectory: tests/task_3/official/
   task_4:
-    testedFunctionName: task4
+    testedFunctionName: task_4
     userInputFilename: symbole.txt
     userOutputFilename: wyniki2.txt
     maxPoints: 3
