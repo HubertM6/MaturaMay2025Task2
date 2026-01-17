@@ -18,7 +18,6 @@ int main(int argc, char* argv[])
         int a = ans.readInt(), b = ans.readInt();
         e.emplace(a, b);
     }
-    ans.readEof();
 
     int un = ouf.readInt();
 
@@ -37,7 +36,6 @@ int main(int argc, char* argv[])
         if (e.count(make_pair(a, b))) ++good;
         else ++bad;
     }
-    ouf.readEof();
     
     if (un == en) quitp(_pc(1 + good), "Poprawna liczba kwadratów. Poprawnie podano %d z %d współrzędnych kwadratów", good, en);
 

@@ -12,11 +12,9 @@ int main(int argc, char* argv[])
 
     int en = ans.readInt();
     string es = ans.readString();
-    ans.readEof();
 
     int un = ouf.readInt();
     string us = ouf.readString();
-    ouf.readEof();
     
     if (un == en && es == us) quitp(_pc(2), "Poprawna liczba i napis");
     else if (un == en) quitp(_pc(1), "Poprawna tylko liczba");

@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
         else quitp(_pc(0), "Odpowiedź jest niepoprawna :(");
     }
 
-    string us = ans.readString();
+    string us = ouf.readString();
 
     bool decimalOk = en == un;
 
